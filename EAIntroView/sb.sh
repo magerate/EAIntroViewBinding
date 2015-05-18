@@ -1,0 +1,1 @@
+sharpie bind --output=EAIntroView --namespace=EAIntroView --sdk=iphoneos8.3 EAIntroView/*.h --unified

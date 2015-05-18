@@ -1,0 +1,36 @@
+# Version: 8.10.0.267 (6481535)
+# [first argument, ignore] # /Users/tomato/Projects/EAIntroViewBinding/EAIntroViewTest/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.0.267/bin/mtouch \
+	--cache \
+	/Users/tomato/Projects/EAIntroViewBinding/EAIntroViewTest/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/tomato/Projects/EAIntroViewBinding/EAIntroViewTest/bin/iPhoneSimulator/Debug/EAIntroViewTest.app \
+	--executable \
+	EAIntroViewTest \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	8.3 \
+	--targetver \
+	8.3 \
+	--abi=i386 \
+	--symbollist \
+	/Users/tomato/Projects/EAIntroViewBinding/EAIntroViewTest/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Users/tomato/Projects/EAIntroViewBinding/bin/Debug/EAIntroView.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/tomato/Projects/EAIntroViewBinding/bin/Debug/EAIntroView.dll \
+	/Users/tomato/Projects/EAIntroViewBinding/EAIntroViewTest/bin/iPhoneSimulator/Debug//EAIntroViewTest.exe \

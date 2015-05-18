@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="EAIntroViewTest/EAIntroViewTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EAIntroViewTest/Info.plist">
+    <Files>
+      <File FileName="EAIntroViewTest/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/tomato/Projects/EAIntroViewBinding/EAIntroViewTest/ViewController.cs" line="29" column="13" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

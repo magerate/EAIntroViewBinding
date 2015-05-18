@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF04D3371B098535007EF4AA /* libEAIntroView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF04D32B1B098535007EF4AA /* libEAIntroView.a */; };
+		CF04D3551B0999EF007EF4AA /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF04D3501B0999EF007EF4AA /* EAIntroPage.m */; };
+		CF04D3561B0999EF007EF4AA /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF04D3521B0999EF007EF4AA /* EAIntroView.m */; };
+		CF04D3571B0999EF007EF4AA /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF04D3541B0999EF007EF4AA /* EARestrictedScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF04D3381B098535007EF4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF04D3231B098535007EF4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF04D32A1B098535007EF4AA;
+			remoteInfo = EAIntroView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF04D3291B098535007EF4AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF04D32B1B098535007EF4AA /* libEAIntroView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEAIntroView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF04D3361B098535007EF4AA /* EAIntroViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EAIntroViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF04D33C1B098535007EF4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF04D34F1B0999EF007EF4AA /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
+		CF04D3501B0999EF007EF4AA /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
+		CF04D3511B0999EF007EF4AA /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
+		CF04D3521B0999EF007EF4AA /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
+		CF04D3531B0999EF007EF4AA /* EARestrictedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EARestrictedScrollView.h; sourceTree = "<group>"; };
+		CF04D3541B0999EF007EF4AA /* EARestrictedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EARestrictedScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF04D3281B098535007EF4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04D3331B098535007EF4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF04D3371B098535007EF4AA /* libEAIntroView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF04D3221B098535007EF4AA = {
+			isa = PBXGroup;
+			children = (
+				CF04D32D1B098535007EF4AA /* EAIntroView */,
+				CF04D33A1B098535007EF4AA /* EAIntroViewTests */,
+				CF04D32C1B098535007EF4AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF04D32C1B098535007EF4AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF04D32B1B098535007EF4AA /* libEAIntroView.a */,
+				CF04D3361B098535007EF4AA /* EAIntroViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF04D32D1B098535007EF4AA /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				CF04D34F1B0999EF007EF4AA /* EAIntroPage.h */,
+				CF04D3501B0999EF007EF4AA /* EAIntroPage.m */,
+				CF04D3511B0999EF007EF4AA /* EAIntroView.h */,
+				CF04D3521B0999EF007EF4AA /* EAIntroView.m */,
+				CF04D3531B0999EF007EF4AA /* EARestrictedScrollView.h */,
+				CF04D3541B0999EF007EF4AA /* EARestrictedScrollView.m */,
+			);
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
+		CF04D33A1B098535007EF4AA /* EAIntroViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF04D33B1B098535007EF4AA /* Supporting Files */,
+			);
+			path = EAIntroViewTests;
+			sourceTree = "<group>";
+		};
+		CF04D33B1B098535007EF4AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF04D33C1B098535007EF4AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF04D32A1B098535007EF4AA /* EAIntroView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF04D33F1B098535007EF4AA /* Build configuration list for PBXNativeTarget "EAIntroView" */;
+			buildPhases = (
+				CF04D3271B098535007EF4AA /* Sources */,
+				CF04D3281B098535007EF4AA /* Frameworks */,
+				CF04D3291B098535007EF4AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EAIntroView;
+			productName = EAIntroView;
+			productReference = CF04D32B1B098535007EF4AA /* libEAIntroView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF04D3351B098535007EF4AA /* EAIntroViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF04D3421B098535007EF4AA /* Build configuration list for PBXNativeTarget "EAIntroViewTests" */;
+			buildPhases = (
+				CF04D3321B098535007EF4AA /* Sources */,
+				CF04D3331B098535007EF4AA /* Frameworks */,
+				CF04D3341B098535007EF4AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF04D3391B098535007EF4AA /* PBXTargetDependency */,
+			);
+			name = EAIntroViewTests;
+			productName = EAIntroViewTests;
+			productReference = CF04D3361B098535007EF4AA /* EAIntroViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF04D3231B098535007EF4AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "观平 蔡";
+				TargetAttributes = {
+					CF04D32A1B098535007EF4AA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CF04D3351B098535007EF4AA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CF04D3261B098535007EF4AA /* Build configuration list for PBXProject "EAIntroView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF04D3221B098535007EF4AA;
+			productRefGroup = CF04D32C1B098535007EF4AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF04D32A1B098535007EF4AA /* EAIntroView */,
+				CF04D3351B098535007EF4AA /* EAIntroViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF04D3341B098535007EF4AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF04D3271B098535007EF4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF04D3551B0999EF007EF4AA /* EAIntroPage.m in Sources */,
+				CF04D3571B0999EF007EF4AA /* EARestrictedScrollView.m in Sources */,
+				CF04D3561B0999EF007EF4AA /* EAIntroView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04D3321B098535007EF4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF04D3391B098535007EF4AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF04D32A1B098535007EF4AA /* EAIntroView */;
+			targetProxy = CF04D3381B098535007EF4AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF04D33D1B098535007EF4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF04D33E1B098535007EF4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF04D3401B098535007EF4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF04D3411B098535007EF4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CF04D3431B098535007EF4AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EAIntroViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF04D3441B098535007EF4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EAIntroViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF04D3261B098535007EF4AA /* Build configuration list for PBXProject "EAIntroView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF04D33D1B098535007EF4AA /* Debug */,
+				CF04D33E1B098535007EF4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF04D33F1B098535007EF4AA /* Build configuration list for PBXNativeTarget "EAIntroView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF04D3401B098535007EF4AA /* Debug */,
+				CF04D3411B098535007EF4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF04D3421B098535007EF4AA /* Build configuration list for PBXNativeTarget "EAIntroViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF04D3431B098535007EF4AA /* Debug */,
+				CF04D3441B098535007EF4AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF04D3231B098535007EF4AA /* Project object */;
+}
