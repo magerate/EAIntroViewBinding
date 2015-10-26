@@ -137,24 +137,26 @@ namespace EAIntroViews {
     interface EAIntroDelegate {
 
         // @optional -(void)introDidFinish:(EAIntroView *)introView;
-        [Export ("introDidFinish:")]
+        [Export ("introDidFinish:"),EventArgs ("IntroDidFinish")]
         void IntroDidFinish (EAIntroView introView);
 
         // @optional -(void)intro:(EAIntroView *)introView pageAppeared:(EAIntroPage *)page withIndex:(NSUInteger)pageIndex;
-        [Export ("intro:pageAppeared:withIndex:")]
+        [Export ("intro:pageAppeared:withIndex:"),EventArgs ("PageAppeared")]
         void PageAppeared (EAIntroView introView, EAIntroPage page, nuint pageIndex);
 
         // @optional -(void)intro:(EAIntroView *)introView pageStartScrolling:(EAIntroPage *)page withIndex:(NSUInteger)pageIndex;
-        [Export ("intro:pageStartScrolling:withIndex:")]
+        [Export ("intro:pageStartScrolling:withIndex:"),EventArgs ("PageStartScrolling")]
         void PageStartScrolling (EAIntroView introView, EAIntroPage page, nuint pageIndex);
 
         // @optional -(void)intro:(EAIntroView *)introView pageEndScrolling:(EAIntroPage *)page withIndex:(NSUInteger)pageIndex;
-        [Export ("intro:pageEndScrolling:withIndex:")]
+        [Export ("intro:pageEndScrolling:withIndex:"),EventArgs ("PageEndScrolling")]
         void PageEndScrolling (EAIntroView introView, EAIntroPage page, nuint pageIndex);
     }
 
     // @interface EAIntroView : UIView <UIScrollViewDelegate>
-    [BaseType (typeof (UIView))]
+    [BaseType (typeof (UIView),
+        Delegates = new string [] { "WeakDelegate" },
+        Events = new Type [] {typeof(EAIntroDelegate)})]
     interface EAIntroView : IUIScrollViewDelegate {
 
         // -(id)initWithFrame:(CGRect)frame andPages:(NSArray *)pagesArray;

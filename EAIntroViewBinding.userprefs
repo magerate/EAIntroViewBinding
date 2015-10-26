@@ -1,9 +1,23 @@
 ﻿<Properties StartupItem="EAIntroViewTest/EAIntroViewTest.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EAIntroViewTest/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiDefinition.cs">
     <Files>
       <File FileName="EAIntroViewTest/Info.plist" />
+      <File FileName="ApiDefinition.cs" Line="142" Column="9" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EAIntroViewBinding" expanded="True">
+            <Node name="EAIntroViewBinding" expanded="True" selected="True" />
+            <Node name="EAIntroViewTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
